@@ -1,0 +1,17 @@
+Data Scientist y Data Engineer son dos profesiones enmarcadas en el análisis de datos, entendiéndose como la disciplina de abstraer información a partir de bases de datos o simplemente, data. Dicho esto, se debe de completar los dos grandes aspectos en los cuáles la analítica de datos se desarrolla. El análisis probabilístico de patrones y generaciones de modelos que ayudan a explicar dichos patrones. Por otro lado, las herramientas computacionales que hacen posible tener la infraestructura computacional requerida para el procesamiento de los datos.
+
+Si bien las dos carreras tienen elementos en común que hacen que comúnmente se confundan dichos términos, es de resaltar el énfasis de cada una:
+
+Data engineer: 
+Su profundización o especialización se encuentra enmarcada en sus habilidades de programación en lenguajes como lo son Java, Scala, Python, SQL, MySQL, NoSQL entre otros. 
+
+Esto debido a que su trabajo comúnmente está dirigido a realizar data pipelines y desarrollar sistemas distribuidos.
+
+Data Scientist:
+Si bien un data scientist tiene fuertes bases de programación, dichas bases han sido desarrolladas a partir de la necesidad cuando se han tenido que enfrentar a bases de datos para desarrollar modelos.
+
+En ese orden de ideas, un data scientist es aquella persona que cuenta con amplio conocimiento en matemática, probabilidad, analítica avanzada de datos, machine learning y artificial intelligence.
+
+Hay que reconocer que ambas profesiones comparten elementos para poder existir, tal que es un error común suponer que una sola persona puede realizar ambas labores cuando su nivel de profundización requieren diferentes personas. 
+
+Un data scientist no puede trabajar aisladamente de un data engineer ya que requiere de la infraestructura provista por de el, y el trabajo de un data engineer no se verá explotado de una manera eficiente sin un data scientist que entienda el ambiente front end y back end.
