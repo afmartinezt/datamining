@@ -1,0 +1,13 @@
+For Machine Learning there are 3 different types of learning: Supervised, Unsupervised and Reinforcement Learning.
+Each kind of learning have their methods with their own characteristics. 
+
+The Supervised method consist on to have well defined the outcome/target variable (or the Dependent variable) and the inputs to the model (or, Independent variable). In this way, the method will learn through a training process that consist on compare the prediction with the outcome that the data set already have with an accuracy level predefined. 
+For the Supervised learning, can be found the following algorithms: Linear Regression, Logistic Regression, Decision Tree, SVM, Random Forest and other more.
+
+The Unsupervised learning differs from the Supervised learning because does not have any target or outcome already defined to compare with the prediction/estimation. That means that can be created a new model, but we do not have plenty knowledge the effect of the inputs (or independent variables). 
+Under Unsupervised learning, can be subsegment the algorithms into 1. Clustering and 2. Association Analysis. 
+1.	Clustering. This method clusters the population in different groups using similarities into the data. Examples of Unsupervised Learning – Clustering algorithms can be found SVD, K-means, PCA
+2.	The Association analysis is focused on Categorical inputs to determinate similarities into the population. Algorithms can be Apriori, FP-Growth.
+
+The Reinforcement Learning is the ability of the model to interact with his environment and find out what is the best outcome. The model will be rewarded or penalized according to his decision into the environment, make it autonomous the learning approach. In other words, the model/agent/machine will learn from past experiences using trial and error trying to improve himself for the future outcomes. One of the most common applications is the videogames autonomous machines.
+Example of Reinforcement Learning algorithms is the Markov Decision Process
