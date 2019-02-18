@@ -1,0 +1,26 @@
+Decision tree is a methodology that is used to establish and classify systems according to the variables (independent variables) that infers to a target variable (or depend variable).	
+The most common algorithms are: CART (Classification and Regression Trees), C4.5, CHAID (Chi-Squared Automatic Interaction Detection), and QUEST (Quick, Unbiased and Efficient Statistical Tree).
+CART algorithm can be represented as a binary tree, where each root node of this tree is a variable (X) and will be where the tree split in order to improve the prediction. On the other hand, each leaf node represents the prediction (y) that is the result of browse into the tree.
+C4.5 is also known as a statistical classifier. There are some aspects to highlight: Accepts both continuous and discrete features; handles incomplete data points; solves over-fitting problem using "pruning" technique and different weights can be applied the features that comprise the training data.
+CHAID, in comparison of CART, Uses Bonferroni adjustment to attempt to control tree size and uses multiway splits at each node. On the other hand, for CART, Gini index is the measure of classification and in CHAID it could be Chi-square or F test determines classification.
+QUEST uses ANOVA F and contingency table Chi Square tests to select variables for splitting. Variables with multiple classes are merged into two super-classes to get binary splits which are determined using QDA (Quadratic Discriminant analysis).
+This to keep on mind between algorithms: 
+•	Measure used to select input variable:
+	o	CART: Gini index
+	o	C4. 5: Entropy info-gain
+	o	CHAID: Chi-square
+	o	QUEST: Chi-square for categorical variables; J-way ANOVA for continuous/ordinal variables 
+•	Dependent variable:
+	o	CART: Categorical/Continuous
+	o	C4. 5: Categorical/Continuous
+	o	CHAID: Categorical
+	o	QUEST: Categorical
+•	Input variable: 
+	o	Categorical/Continuous for all
+•	Split at each node:
+	o	CART: Binary; Split on linear Combinations
+	o	C4. 5: Multiple
+	o	CHAID: Multiple
+	o	QUEST: Binary; Split on linear Combinations
+
+
