@@ -1,0 +1,13 @@
+The objective of Machine Learning is to build the best model in order to predictive the outcome that we are purchasing. 
+Is to know that Machine Learning have plenty of models, variation and estimations, that makes us we have a large menu where to choose techniques in order to model our algorithm and, in that way, obtained the best prediction.
+
+The advantages of the Ensemble algorithms are, essentially, the ability to obtain the best model according to other methods already calculated. That means that the “ensemble” different models in order to obtain the best combination possible in order to achieve our goal.
+
+But, there a large variation of Ensemble that works according to our context. 
+
+For Basic Ensemble Techniques we found: 1) Max Voting, 2) Averaging and 3) Weighted Average. 
+For Advanced Ensemble Techniques, can be highlight: 1) Stacking, 2) Blending, 3) Bagging and 4) Boosting.
+Additional to it, there algorithms based on Bagging and Boosting such as: 1) Bagging meta-estimator, 2) Random Forest, 3) AdaBoost, 4) GBM, 5) XGB, 6) Light GBM and 7) CatBoost.
+
+All these methods are looking for the same objective that is to specify the best combination of models in order to approve the accuracy of a global model.
+This method works because are into the Supervised learning algorithms were can be trained a model with several data for features as target variables.
