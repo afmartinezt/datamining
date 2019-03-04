@@ -1,8 +1,27 @@
-# E10 - Random Forest Performance Review
+E10 - Random Forest Performance Review
 
 Read and comment the paper *Do we Need Hundreds of Classifiers to Solve Real World Classification Problems?*
 
-### Reference:
+Reference:
 http://jmlr.org/papers/volume15/delgado14a/delgado14a.pdf
 
-## Overview.
+Overview.
+
+According to the paper 'Do we Need Hundreds of Classifiers to Solve Real World Classification Problems?', is not an easy task to determinate the best machine learning classificator. 
+In fact, the journey that the authors made was widely impacted by the considerations that they made. I may highlight the two biggest considerations that made, and may impact on the result:
+
+1. Considerations between the datasets
+2. Technologies for each algorithm
+3. Processing limitations 
+4. Data conditions
+
+1. Considerations between the datasets. This refers about the examples used by the authors and the criteria used to choose or discard the datasets. The standarization of the datasets in study was correctlt used, however, and despite the good intentions of the authors, consider not a large or a numeric criteria implies bias over the whole study. In that way, the paper will be relevant if the reader is interested on read about the best classifier on the real world problems for dataset that the people usually found. Will not be totally useful for problems relate to big data, for example.
+
+2. Technologies for each algorithm. The conclusion of the paper is, in the context of the study (A general/common scenario for a machine learning problems), the best results are achieved by the parallel random forest (parRF t), implemented in R with caret, tuning the parameter mtry. This is limited by the algorithm and technology that R with caret uses on background. Probably, if this Classifier can be found on Python, Mathlab the comparission would be improved since this will determinate the fact of the Classifier is better, not with the parameters that each brand determinate. This means a bias for the results since optimization that each brand (i.e. Matlab, C, R) may have.
+
+3. Processing limitations. In the results section, the authors hightlight that some Classifiers did not reach the goal for processing limitations.
+
+4. Data conditions. This is relevant because some Classifiers given errors for collinearity of data, singular covariance matrices,
+and equal inputs for all the training patterns in some classes. 
+
+As summary, the study deeply evaluate the performance of 179 classifiers over 121 data sets, that tries to simulate a typical scenario that a research may face on his daily basis. Is important to highlight that the parallel random forest (parRF t), implemented in R with caret, have the best performance according to the context, what is interest since gives a first approach for a researcher to start a implementation with parallel random forest in order to search the best classifier, if this researcher, does not have time test all the classifier to determinate the best one.
