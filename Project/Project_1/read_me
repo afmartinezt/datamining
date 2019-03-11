@@ -1,1 +1,24 @@
-<empty>
+Project 1
+Used Vehicle Price Prediction
+
+
+Presented by:
+Andres Felipe Martinez Tunarroza (af.martinez833@uniandes.edu.co)
+Nicolas David Gil Quijano (nd.gil@uniandes.edu.co)
+Jorge Luis Medina Herrada (jl.medina@uniandes.edu.co)
+
+_______
+
+Last and best Kaggle submission (https://www.kaggle.com/c/miia4200-20191-p1-usedcarpriceprediction/leaderboard):
+
+Team Name         |   Score       |   Entries
+Andres Martinez*  |   3527.69917  |   37
+
+* The submission was made by Andres Martinez in order to make a single submission by team. This prevents unused submission/entries 
+_______
+
+API on Cloud service (AWS): http://13.59.32.163:8088/ 
+
+Thanks!
+
+Magister on Analytic Intelligence for Decision Making
