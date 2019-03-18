@@ -1,0 +1,12 @@
+Gradient Boosting Review
+
+Both methods Gradient Boosting Classifier and XGBoost (eXtreme Gradient Boosting) are, fundamentally, the same algorithm but differs on implementation. 
+In fact, both works under the same principle of Gradient Boost but the XGBoost implementation is faster and computational optimized, more regularized model formalization to control over-fitting, which gives it better performance.
+
+XGBoost is optimized for fast parallel tree construction, and designed to be fault tolerant under the distributed setting
+
+Additional to it, is important to highlight some improvements made by the developers of XGBoost:
+
+1. Use of sparse matrices with sparsity aware algorithms
+2. Improved data structures for better processor cache utilization which makes it faster.
+3. Better support for multicore processing which reduces overall training time.
