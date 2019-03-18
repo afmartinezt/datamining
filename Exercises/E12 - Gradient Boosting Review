@@ -1,12 +1,24 @@
 Gradient Boosting Review
 
-Both methods Gradient Boosting Classifier and XGBoost (eXtreme Gradient Boosting) are, fundamentally, the same algorithm but differs on implementation. 
+Both methods Gradient Boosting Classifier and XGBoost (eXtreme Gradient Boosting) are, fundamentally, the same algorithm but differs on implementation and, XGBoost have some computational features optimized that makes it one of the most popular methods on Machine Learning competitions. 
 In fact, both works under the same principle of Gradient Boost but the XGBoost implementation is faster and computational optimized, more regularized model formalization to control over-fitting, which gives it better performance.
 
-XGBoost is optimized for fast parallel tree construction, and designed to be fault tolerant under the distributed setting
+XGBoost is optimized for fast parallel tree construction, and designed to be fault tolerant under the distributed setting. "The most important factor behind the success of XGBoost is its scalability in all scenarios. The system runs more than ten times faster than existing popular solutions on a single machine and scales to billions of examples in distributed ormemory-limited settings" [1].
 
-Additional to it, is important to highlight some improvements made by the developers of XGBoost:
+Additional to it, is important to highlight some improvements made by the developers of XGBoost (into the algorithm implementation):
 
 1. Use of sparse matrices with sparsity aware algorithms
 2. Improved data structures for better processor cache utilization which makes it faster.
 3. Better support for multicore processing which reduces overall training time.
+
+Essentially, XGBoost incorporate the following features into the algorithm creation [2]:
+
+1. Clever Penalization of Trees
+2. A Proportional shrinking of leaf nodes
+3. Newton Boosting
+4. Extra Randomization Parameter
+
+One of the greatest difficulties to study XGBoost is the amount of hyperparameters that it includes, but even with this difficulty, XGBoost is one of the most powerful and efficient algorithms for Machine Learning
+
+[1] http://delivery.acm.org/10.1145/2940000/2939785/p785-chen.pdf?ip=163.185.148.245&id=2939785&acc=CHORUS&key=30C1A035C2D8D18E%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1552941001_15d624bd3c020cecb4a2566c9cbdc5c3
+[2] https://brage.bibsys.no/xmlui/bitstream/handle/11250/2433761/16128_FULLTEXT.pdf
