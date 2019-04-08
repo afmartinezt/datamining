@@ -11,6 +11,9 @@ And the last component, but probably, the most powerful is the Collective AI... 
 The Houndify (and SoundHound) technology combines both Automatic Speech Recognition (ASR) and Natural Language Understanding (NLU) into one engine, resulting in dramatically increased speed & accuracy.
 
 The product itself is just an application of Natural Processing Language to the level transforming it to Natural Language Understanding. Because this, the Core principle of Houndify is the Live Transcription; Live Transcription displays what the user is saying and also predicts what the user is likely to say based on Houndify’s NLU algorithms. 
+Houndify has patentend Speech-to-Meaning™ and Deep Meaning Understanding™ technologies from SoundHound Inc. Houndify Voice AI platform, running on NVIDIA DRIVE IX™.
+
+Were not found more details about the algorithms used into Houndify
 
 References
 [1]: https://www.houndify.com/?ref=Welcome.AI
